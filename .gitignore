@@ -14,3 +14,8 @@ code/game/gamemodes/technomancer/spells/projectile/overload.dm
 code/game/gamemodes/technomancer/spells/projectile/overload.dm
 code/modules/client/preference_setup/loadout/loadout_xeno.dm
 temp.dmi
+tools/midi2piano/.vs/*
+tools/midi2piano/.idea*
+tools/midi2piano/midi2piano/bin/*
+tools/midi2piano/midi2piano/obj/*
+tools/midi2piano/packages
