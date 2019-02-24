@@ -21,6 +21,7 @@
 	spawn_flags = SPECIES_CAN_JOIN | SPECIES_IS_WHITELISTED
 	appearance_flags = HAS_HAIR_COLOR | HAS_SKIN_TONE | HAS_LIPS | HAS_UNDERWEAR | HAS_EYE_COLOR
 	ambiguous_genders = TRUE
+	death_message = "deflates as thier body can not continue to hold air"
 /datum/species/inflateable/create_organs(var/mob/living/carbon/human/H)
 	H.inflatable = 1
 	. = ..()
