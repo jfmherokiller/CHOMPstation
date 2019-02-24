@@ -11,7 +11,7 @@
 	secondary_langs = list(LANGUAGE_SOL_COMMON, LANGUAGE_TERMINUS)
 	name_language = null // Use the first-name last-name generator rather than a language scrambler
 
-	min_age = 17
+	min_age = 18
 	max_age = 130
 
 	economic_modifier = 7
