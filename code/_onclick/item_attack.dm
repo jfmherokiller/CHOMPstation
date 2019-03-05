@@ -46,6 +46,8 @@ avoid code duplication. This includes items that may sometimes act as a standard
 		return 0
 	if(src.Airattackby(I,user))
 		return 0
+	if(src.GarbageAttackby(I,user))
+		return 0
 	if(can_operate(src) && I.do_surgery(src,user)) //Surgery
 		return 1
 	if(attempt_vr(src,"vore_attackby",args)) return //VOREStation Code
